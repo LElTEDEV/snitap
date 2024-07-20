@@ -50,3 +50,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

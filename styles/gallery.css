@@ -103,6 +103,17 @@ section.gallery {
   }
 }
 
+@media (max-width: 1000px) {
+  section.gallery {
+    & .content {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+  }
+}
+
 @keyframes image-appear {
   from {
     opacity: 0;
